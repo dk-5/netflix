@@ -1,0 +1,69 @@
+.Profilescreen 
+{
+    height:100vh;
+    color:white;
+}
+.body
+{
+    display:flex;
+    flex-direction:column;
+    padding-top:8%;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    max-width:800px;
+}
+.info 
+{
+    display:flex;
+}
+.avat 
+{
+height:80px;
+}
+.body h1 
+{
+    font-size:30px;
+    font-weight:400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom:20px;
+}
+.details 
+{
+    color:white;
+    margin-left:25px;
+    flex:1
+}
+.details h2 
+{
+    background-color:grey;
+    padding:15px;
+    font-size:15px;
+    padding-left:20px;
+}
+.Signout
+{
+padding:10px 20px;
+font-size:1rem;
+margin-top:5%;
+width:100%;
+color:white;
+background-color: #e50914;
+outline-width:none;
+border:none;
+cursor:pointer;
+}
+.plans
+{
+    margin-top:20px;
+}
+.plans h3 
+{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom:10px;
+}
+.info 
+{
+    display:flex;
+    flex-direction:row;
+}

@@ -1,0 +1,58 @@
+.Signinscreen 
+{
+  max-width:300px;
+  padding:70px;
+   margin:0 auto;
+  background: rgba(0, 0,0,0.85);
+    
+}
+.Signinscreen form 
+{
+    display:flex;
+    flex-direction:column;
+    
+}
+.Signinscreen input
+{
+   
+    outline-width:0;
+    height:30px;
+    border:none;
+    border-radius:5px;
+    margin-bottom:14px;
+    padding:5px 15px;
+
+}
+.Signinscreen button 
+{
+    padding:16px 20px;
+    font-size:1rem;
+    color:white;
+    background-color:#e50914;
+    border:none;
+    border-radius:5px;
+    font-weight:600;
+    cursor: pointer;
+    margin-top:20px;
+}
+.Signinscreen > form > h1 
+{
+    text-align:left;
+    margin-bottom:25px;
+    font-size:1.5rem;
+} 
+
+.Signinscreen > form > h4
+{
+text-align:left;
+margin-top:20px;
+}
+.gray 
+{
+    color:gray;
+}
+.link:hover
+{
+    cursor:pointer;
+   text-decoration:underline;
+}

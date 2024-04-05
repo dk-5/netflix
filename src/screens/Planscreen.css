@@ -1,0 +1,39 @@
+.infos
+{
+    display:flex;
+    flex-direction:column;
+    
+}
+.plan
+{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    justify-content:space-between;
+    align-content:space-between;
+    color:grey;
+    opacity:0.8;
+}
+.plan:hover 
+{
+    color:white;
+    cursor: pointer;
+    opacity:1;
+}
+.subscribe
+{
+   
+    padding:5px 5px;
+    font-size:15px;
+    
+    width:12%;
+    color:white;
+    background-color: #e50914;
+    outline-width:none;
+    border:none;
+    cursor:pointer;
+}
+.Planscreen 
+{
+margin-bottom:30px;
+}
